@@ -38,7 +38,7 @@
                         android:layout_width="34dp"
                         android:layout_height="34dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/ic_app_google" />
+                        android:background="@mipmap/ic_launcher_vpn" />
 
                 </LinearLayout>
 
@@ -814,31 +814,31 @@
                         android:paddingStart="@dimen/lo_16dpGrid"
                         android:paddingEnd="@dimen/lo_16dpGrid">
 
-                        <ImageView
-                            android:id="@+id/iv_about_facebook"
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:layout_marginTop="@dimen/lo_8dpGrid"
-                            android:layout_marginEnd="@dimen/lo_8dpGrid"
-                            android:layout_marginBottom="@dimen/lo_8dpGrid"
-                            android:background="@drawable/facebook" />
+<!--                        <ImageView-->
+<!--                            android:id="@+id/iv_about_facebook"-->
+<!--                            android:layout_width="64dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_marginTop="@dimen/lo_8dpGrid"-->
+<!--                            android:layout_marginEnd="@dimen/lo_8dpGrid"-->
+<!--                            android:layout_marginBottom="@dimen/lo_8dpGrid"-->
+<!--                            android:background="@drawable/facebook" />-->
 
-                        <View
-                            android:layout_width="16dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid" />
+<!--                        <View-->
+<!--                            android:layout_width="16dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid" />-->
 
-                        <ImageView
-                            android:id="@+id/iv_about_vk"
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid"
-                            android:background="@drawable/vk" />
+<!--                        <ImageView-->
+<!--                            android:id="@+id/iv_about_vk"-->
+<!--                            android:layout_width="64dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid"-->
+<!--                            android:background="@drawable/vk" />-->
 
-                        <View
-                            android:layout_width="16dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid" />
+<!--                        <View-->
+<!--                            android:layout_width="16dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid" />-->
 
                         <ImageView
                             android:id="@+id/iv_about_youtube"
@@ -852,17 +852,17 @@
                             android:layout_height="64dp"
                             android:layout_margin="@dimen/lo_8dpGrid" />
 
-                        <ImageView
-                            android:id="@+id/iv_about_twitter"
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid"
-                            android:background="@drawable/twitter" />
+<!--                        <ImageView-->
+<!--                            android:id="@+id/iv_about_twitter"-->
+<!--                            android:layout_width="64dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid"-->
+<!--                            android:background="@drawable/twitter" />-->
 
-                        <View
-                            android:layout_width="16dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid" />
+<!--                        <View-->
+<!--                            android:layout_width="16dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid" />-->
 
                         <ImageView
                             android:id="@+id/iv_about_instagram"
@@ -939,49 +939,49 @@
                             android:layout_height="64dp"
                             android:layout_margin="@dimen/lo_8dpGrid" />
 
-                        <ImageView
-                            android:id="@+id/iv_about_amazon"
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid"
-                            android:background="@drawable/ic_amazon_apps" />
+<!--                        <ImageView-->
+<!--                            android:id="@+id/iv_about_amazon"-->
+<!--                            android:layout_width="64dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid"-->
+<!--                            android:background="@drawable/ic_amazon_apps" />-->
 
-                        <View
-                            android:layout_width="16dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid" />
+<!--                        <View-->
+<!--                            android:layout_width="16dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid" />-->
 
-                        <ImageView
-                            android:id="@+id/iv_about_uptodown"
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid"
-                            android:background="@drawable/ic_uptodown" />
+<!--                        <ImageView-->
+<!--                            android:id="@+id/iv_about_uptodown"-->
+<!--                            android:layout_width="64dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid"-->
+<!--                            android:background="@drawable/ic_uptodown" />-->
 
 
-                        <View
-                            android:layout_width="16dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid" />
+<!--                        <View-->
+<!--                            android:layout_width="16dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid" />-->
 
-                        <ImageView
-                            android:id="@+id/iv_about_aptoid"
-                            android:layout_width="236dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid"
-                            android:background="@drawable/ic_aptoid" />
+<!--                        <ImageView-->
+<!--                            android:id="@+id/iv_about_aptoid"-->
+<!--                            android:layout_width="236dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid"-->
+<!--                            android:background="@drawable/ic_aptoid" />-->
 
-                        <View
-                            android:layout_width="16dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid" />
+<!--                        <View-->
+<!--                            android:layout_width="16dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid" />-->
 
-                        <ImageView
-                            android:id="@+id/iv_about_yandex"
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:layout_margin="@dimen/lo_8dpGrid"
-                            android:background="@drawable/yandex" />
+<!--                        <ImageView-->
+<!--                            android:id="@+id/iv_about_yandex"-->
+<!--                            android:layout_width="64dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_margin="@dimen/lo_8dpGrid"-->
+<!--                            android:background="@drawable/yandex" />-->
 
                     </LinearLayout>
                 </HorizontalScrollView>
@@ -1281,7 +1281,7 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/ic_app_google" />
+                    android:background="@mipmap/ic_launcher_vpn" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1304,7 +1304,7 @@
                         android:id="@+id/tv_usage_cu_version"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="App version 2.6.800"
+                        android:text="App version 1.0"
                         android:textColor="#AFAFAF" />
 
                 </LinearLayout>
@@ -1345,7 +1345,7 @@
                         android:layout_marginStart="@dimen/lo_8dpGrid"
                         android:layout_marginEnd="@dimen/lo_8dpGrid"
                         android:gravity="center"
-                        android:text="Buzz VPN"
+                        android:text="Ngebut VPN"
                         android:textColor="#777777"
                         android:textSize="16sp" />
 
@@ -1357,7 +1357,7 @@
                         android:layout_marginStart="@dimen/lo_8dpGrid"
                         android:layout_marginEnd="@dimen/lo_8dpGrid"
                         android:gravity="center"
-                        android:text="© 2019 OML"
+                        android:text="© 2020 FRONTSENTRY"
                         android:textColor="#777777"
                         android:textSize="14sp" />
 

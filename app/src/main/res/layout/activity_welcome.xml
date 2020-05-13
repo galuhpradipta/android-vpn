@@ -147,7 +147,7 @@
         android:id="@+id/ll_welcome_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorNewBlue"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="@dimen/lo_8dpGrid"
@@ -166,7 +166,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/lo_4dpGrid"
-            android:text="BuzzVPN"
+            android:text="NgebutVPN"
             android:textColor="@color/colorWhite"
             android:textSize="16sp"
             android:textStyle="bold" />
