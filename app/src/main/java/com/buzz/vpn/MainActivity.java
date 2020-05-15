@@ -28,6 +28,13 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.material.shape.InterpolateOnScrollPositionChangeHelper;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 import org.json.JSONArray;
@@ -58,7 +65,7 @@ import static com.buzz.vpn.Data.isConnectionDetails;
 
 
 public class MainActivity extends AppCompatActivity implements VpnStatus.ByteCountListener, VpnStatus.StateListener {
-
+    private static final String TAG = "MainActivity";
 
     IOpenVPNServiceInternal mService;
 
@@ -97,6 +104,7 @@ public class MainActivity extends AppCompatActivity implements VpnStatus.ByteCou
     ConstraintLayout constLayoutMain;
 
     private FirebaseAnalytics mFirebaseAnalytics;
+    private InterstitialAd mInterstitialAd;
 
     private ServiceConnection mConnection = new ServiceConnection() {
         @Override
@@ -249,6 +257,16 @@ public class MainActivity extends AppCompatActivity implements VpnStatus.ByteCou
         tv_data_today_text.setTypeface(RobotoRegular);
         tv_data_today_name.setTypeface(RobotoMedium);
 
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId(getString(R.string.admob_interstitial_after_connected));
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
         LinearLayout linearLayoutMainHome = findViewById(R.id.linearLayoutMainHome);
         linearLayoutMainHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -349,9 +367,16 @@ public class MainActivity extends AppCompatActivity implements VpnStatus.ByteCou
                                                                 handler.postDelayed(new Runnable() {
                                                                     @Override
                                                                     public void run() {
-                                                                        Intent Servers = new Intent(MainActivity.this, ReviewActivity.class);
-                                                                        startActivity(Servers);
-                                                                        overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
+//                                                                        Intent Servers = new Intent(MainActivity.this, ReviewActivity.class);
+//                                                                        startActivity(Servers);
+//                                                                        overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
+
+                                                                        if (mInterstitialAd.isLoaded()) {
+                                                                            mInterstitialAd.show();
+                                                                        } else {
+                                                                            Log.d(TAG, "run: Ads not loaded");
+                                                                        }
+
                                                                     }
                                                                 }, 1000);
                                                             }
@@ -1048,8 +1073,6 @@ public class MainActivity extends AppCompatActivity implements VpnStatus.ByteCou
         Animation anim = AnimationUtils.loadAnimation(ctx, animation);
         Element.startAnimation(anim);
     }
-
-
 }
 
 
