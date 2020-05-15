@@ -171,4 +171,8 @@
 
 
     <string name="string_of_two_number">%02d</string>
+
+    <!-- test -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_interstitial_after_connected">ca-app-pub-3940256099942544/1033173712</string>
 </resources>
