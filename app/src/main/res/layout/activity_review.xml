@@ -50,7 +50,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Enjoying Buzz VPN?"
+        android:text="Enjoying Ngebut VPN?"
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/ts_H6"
         app:layout_constraintBottom_toTopOf="@+id/tv_review_sup"

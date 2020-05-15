@@ -15,8 +15,8 @@
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/lo_16dpGrid"
-        android:background="@drawable/ic_app_google"
-        app:srcCompat="@drawable/ic_app_google" />
+        android:background="@mipmap/ic_launcher_vpn"
+        app:srcCompat="@mipmap/ic_launcher_vpn" />
 
     <TextView
         android:id="@+id/dialog_title"
@@ -72,7 +72,7 @@
             android:gravity="center"
             android:text="close"
             android:textAllCaps="true"
-            android:textColor="@color/colorBlue"
+            android:textColor="@color/colorNewBlue"
             android:textStyle="bold" />
 
         <View
@@ -89,7 +89,7 @@
             android:gravity="center"
             android:text="update"
             android:textAllCaps="true"
-            android:textColor="@color/colorBlue"
+            android:textColor="@color/colorNewBlue"
             android:textStyle="bold" />
 
         <View

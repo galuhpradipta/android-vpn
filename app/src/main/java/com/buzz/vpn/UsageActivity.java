@@ -337,49 +337,49 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_facebook = findViewById(R.id.iv_about_facebook);
-        iv_about_facebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("click", "facebook");
-                    mFirebaseAnalytics.logEvent("app_param_click", params);
+//        ImageView iv_about_facebook = findViewById(R.id.iv_about_facebook);
+//        iv_about_facebook.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                try {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("click", "facebook");
+//                    mFirebaseAnalytics.logEvent("app_param_click", params);
+//
+//                    Intent intent = new Intent(Intent.ACTION_VIEW);
+//                    intent.setData(Uri.parse("https://web.facebook.com/OML-100989851252068/"));
+//                    startActivity(intent);
+//                } catch (Exception e) {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("exception", "UA3" + e.toString());
+//                    mFirebaseAnalytics.logEvent("app_param_error", params);
+//                }
+//            }
+//        });
 
-                    Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://web.facebook.com/OML-100989851252068/"));
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("exception", "UA3" + e.toString());
-                    mFirebaseAnalytics.logEvent("app_param_error", params);
-                }
-            }
-        });
-
-        ImageView iv_about_vk = findViewById(R.id.iv_about_vk);
-        iv_about_vk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("click", "vk");
-                    mFirebaseAnalytics.logEvent("app_param_click", params);
-
-                    Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://vk.com/public185007005"));
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("exception", "UA4" + e.toString());
-                    mFirebaseAnalytics.logEvent("app_param_error", params);
-                }
-            }
-        });
+//        ImageView iv_about_vk = findViewById(R.id.iv_about_vk);
+//        iv_about_vk.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                try {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("click", "vk");
+//                    mFirebaseAnalytics.logEvent("app_param_click", params);
+//
+//                    Intent intent = new Intent(Intent.ACTION_VIEW);
+//                    intent.setData(Uri.parse("https://vk.com/public185007005"));
+//                    startActivity(intent);
+//                } catch (Exception e) {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("exception", "UA4" + e.toString());
+//                    mFirebaseAnalytics.logEvent("app_param_error", params);
+//                }
+//            }
+//        });
 
         ImageView iv_about_youtube = findViewById(R.id.iv_about_youtube);
         iv_about_youtube.setOnClickListener(new View.OnClickListener() {
@@ -392,7 +392,7 @@ public class UsageActivity extends Activity {
                     mFirebaseAnalytics.logEvent("app_param_click", params);
 
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://www.youtube.com/channel/UCnCrXRM8U75iKvSpO6yXFKQ"));
+                    intent.setData(Uri.parse("https://www.youtube.com/channel/UCi8U5dKGvzP-L5dDsutTpug"));
                     startActivity(intent);
                 } catch (Exception e) {
                     Bundle params = new Bundle();
@@ -403,27 +403,27 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_twitter = findViewById(R.id.iv_about_twitter);
-        iv_about_twitter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("click", "twitter");
-                    mFirebaseAnalytics.logEvent("app_param_click", params);
-
-                    Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://twitter.com/OML69079868"));
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("exception", "UA6" + e.toString());
-                    mFirebaseAnalytics.logEvent("app_param_error", params);
-                }
-            }
-        });
+//        ImageView iv_about_twitter = findViewById(R.id.iv_about_twitter);
+//        iv_about_twitter.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                try {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("click", "twitter");
+//                    mFirebaseAnalytics.logEvent("app_param_click", params);
+//
+//                    Intent intent = new Intent(Intent.ACTION_VIEW);
+//                    intent.setData(Uri.parse("https://twitter.com/OML69079868"));
+//                    startActivity(intent);
+//                } catch (Exception e) {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("exception", "UA6" + e.toString());
+//                    mFirebaseAnalytics.logEvent("app_param_error", params);
+//                }
+//            }
+//        });
 
         ImageView iv_about_instagram = findViewById(R.id.iv_about_instagram);
         iv_about_instagram.setOnClickListener(new View.OnClickListener() {
@@ -436,7 +436,7 @@ public class UsageActivity extends Activity {
                     mFirebaseAnalytics.logEvent("app_param_click", params);
 
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://www.instagram.com/gayankr/"));
+                    intent.setData(Uri.parse("https://www.instagram.com/frontsentry/"));
                     startActivity(intent);
                 } catch (Exception e) {
                     Bundle params = new Bundle();
@@ -472,97 +472,97 @@ public class UsageActivity extends Activity {
             }
         });
 
-        ImageView iv_about_amazon = findViewById(R.id.iv_about_amazon);
-        iv_about_amazon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("click", "amazon");
-                    mFirebaseAnalytics.logEvent("app_param_click", params);
-
-                    Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://www.amazon.com/Buzz-VPN-Best-Free-Unlimited/dp/B07T3X677T/ref=BuzzApp"));
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("exception", "UA9" + e.toString());
-                    mFirebaseAnalytics.logEvent("app_param_error", params);
-
-                }
-            }
-        });
+//        ImageView iv_about_amazon = findViewById(R.id.iv_about_amazon);
+//        iv_about_amazon.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                try {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("click", "amazon");
+//                    mFirebaseAnalytics.logEvent("app_param_click", params);
+//
+//                    Intent intent = new Intent(Intent.ACTION_VIEW);
+//                    intent.setData(Uri.parse("https://www.amazon.com/Buzz-VPN-Best-Free-Unlimited/dp/B07T3X677T/ref=BuzzApp"));
+//                    startActivity(intent);
+//                } catch (Exception e) {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("exception", "UA9" + e.toString());
+//                    mFirebaseAnalytics.logEvent("app_param_error", params);
+//
+//                }
+//            }
+//        });
 
         // https://buzz-vpn-fast-free-unlimited-secure-vpn-proxy.en.uptodown.com/android
-        ImageView iv_about_uptodown = findViewById(R.id.iv_about_uptodown);
-        iv_about_uptodown.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("click", "uptodown");
-                    mFirebaseAnalytics.logEvent("app_param_click", params);
+//        ImageView iv_about_uptodown = findViewById(R.id.iv_about_uptodown);
+//        iv_about_uptodown.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                try {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("click", "uptodown");
+//                    mFirebaseAnalytics.logEvent("app_param_click", params);
+//
+//                    Intent intent = new Intent(Intent.ACTION_VIEW);
+//                    intent.setData(Uri.parse("https://buzz-vpn-fast-free-unlimited-secure-vpn-proxy.en.uptodown.com/android"));
+//                    startActivity(intent);
+//                } catch (Exception e) {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("exception", "UA10" + e.toString());
+//                    mFirebaseAnalytics.logEvent("app_param_error", params);
+//                }
+//            }
+//        });
 
-                    Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://buzz-vpn-fast-free-unlimited-secure-vpn-proxy.en.uptodown.com/android"));
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("exception", "UA10" + e.toString());
-                    mFirebaseAnalytics.logEvent("app_param_error", params);
-                }
-            }
-        });
-
-        ImageView iv_about_aptoid = findViewById(R.id.iv_about_aptoid);
-        iv_about_aptoid.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("click", "aptoid");
-                    mFirebaseAnalytics.logEvent("app_param_click", params);
-
-                    //interstitialBuilder.show(UsageActivity.this);
-                    Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://buzz-vpn.en.aptoide.com/"));
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("exception", "UA11" + e.toString());
-                    mFirebaseAnalytics.logEvent("app_param_error", params);
-                }
-            }
-        });
+//        ImageView iv_about_aptoid = findViewById(R.id.iv_about_aptoid);
+//        iv_about_aptoid.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                try {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("click", "aptoid");
+//                    mFirebaseAnalytics.logEvent("app_param_click", params);
+//
+//                    //interstitialBuilder.show(UsageActivity.this);
+//                    Intent intent = new Intent(Intent.ACTION_VIEW);
+//                    intent.setData(Uri.parse("https://buzz-vpn.en.aptoide.com/"));
+//                    startActivity(intent);
+//                } catch (Exception e) {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("exception", "UA11" + e.toString());
+//                    mFirebaseAnalytics.logEvent("app_param_error", params);
+//                }
+//            }
+//        });
 
 
-        ImageView iv_about_yandex = findViewById(R.id.iv_about_yandex);
-        iv_about_yandex.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("click", "yandex");
-                    mFirebaseAnalytics.logEvent("app_param_click", params);
-
-                    Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://store.yandex.com/"));
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Bundle params = new Bundle();
-                    params.putString("device_id", App.device_id);
-                    params.putString("exception", "UA12" + e.toString());
-                    mFirebaseAnalytics.logEvent("app_param_error", params);
-                }
-            }
-        });
+//        ImageView iv_about_yandex = findViewById(R.id.iv_about_yandex);
+//        iv_about_yandex.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                try {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("click", "yandex");
+//                    mFirebaseAnalytics.logEvent("app_param_click", params);
+//
+//                    Intent intent = new Intent(Intent.ACTION_VIEW);
+//                    intent.setData(Uri.parse("https://store.yandex.com/"));
+//                    startActivity(intent);
+//                } catch (Exception e) {
+//                    Bundle params = new Bundle();
+//                    params.putString("device_id", App.device_id);
+//                    params.putString("exception", "UA12" + e.toString());
+//                    mFirebaseAnalytics.logEvent("app_param_error", params);
+//                }
+//            }
+//        });
 
 
         LinearLayout linearLayoutFAQ = findViewById(R.id.linearLayoutFAQ);
@@ -661,7 +661,7 @@ public class UsageActivity extends Activity {
                     mFirebaseAnalytics.logEvent("app_param_click", params);
 
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://gayanvoice.github.io/oml/buzz/privacypolicy.html"));
+                    intent.setData(Uri.parse("https://frontsentry.id/privacy-policy/"));
                     startActivity(intent);
                 } catch (Exception e) {
                     Bundle params = new Bundle();

@@ -68,7 +68,7 @@
                     android:layout_height="34dp"
                     android:layout_gravity="center"
                     android:layout_margin="@dimen/lo_16dpGrid"
-                    android:background="@drawable/ic_app_google" />
+                    android:background="@mipmap/ic_launcher_vpn" />
 
 
             </LinearLayout>
@@ -142,7 +142,7 @@
                     android:id="@+id/tv_usage_faq_q2_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="How to use Buzz VPN?"
+                    android:text="How to use Ngebut VPN?"
                     android:textColor="@color/textSup"
                     android:textSize="@dimen/ts_Body1"
                     android:textStyle="bold" />
@@ -196,7 +196,7 @@
                     android:id="@+id/tv_usage_faq_q3_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Why Buzz VPN failed to connect?"
+                    android:text="Why Ngebut VPN failed to connect?"
                     android:textColor="@color/textSup"
                     android:textSize="@dimen/ts_Body1"
                     android:textStyle="bold" />
@@ -261,69 +261,69 @@
             </LinearLayout>
 
             <!-- FAQ 5 -->
-            <LinearLayout
-                android:id="@+id/LinearLayoutQ5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="@dimen/lo_16dpGrid"
-                android:layout_marginEnd="@dimen/lo_16dpGrid"
-                android:layout_marginBottom="@dimen/lo_16dpGrid"
-                android:orientation="vertical">
+<!--&lt;!&ndash;            <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/LinearLayoutQ5"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="@dimen/lo_16dpGrid"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginEnd="@dimen/lo_16dpGrid"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginBottom="@dimen/lo_16dpGrid"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:orientation="vertical">&ndash;&gt;-->
 
-                <TextView
-                    android:id="@+id/tv_usage_faq_q5_1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="How to run Buzz VPN in background?"
-                    android:textColor="@color/textSup"
-                    android:textSize="@dimen/ts_Body1"
-                    android:textStyle="bold" />
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/lo_8dpGrid"
-                    android:layout_marginBottom="@dimen/lo_8dpGrid"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:background="@drawable/img_protected_apps" />
+<!--&lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/tv_usage_faq_q5_1"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:text="How to run Ngebut VPN in background?"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textColor="@color/textSup"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textSize="@dimen/ts_Body1"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textStyle="bold" />&ndash;&gt;-->
 
 
-                </LinearLayout>
+<!--&lt;!&ndash;                <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginTop="@dimen/lo_8dpGrid"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginBottom="@dimen/lo_8dpGrid"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:orientation="vertical">&ndash;&gt;-->
 
-                <TextView
-                    android:id="@+id/tv_usage_faq_q5_2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Advantages"
-                    android:textColor="@color/textSup"
-                    android:textSize="@dimen/ts_Body2"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/tv_usage_faq_q5_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Your App will not close after Screen-Off"
-                    android:textColor="@color/textSub"
-                    android:textSize="@dimen/ts_Body2" />
-
-                <TextView
-                    android:id="@+id/tv_usage_faq_q5_4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Open Settings > Advanced Settings > Battery > Protected Apps and Enable Buzz VPN"
-                    android:textColor="@color/textSub"
-                    android:textSize="@dimen/ts_Body2"
-                    android:textStyle="italic" />
+<!--&lt;!&ndash;                    <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:background="@drawable/img_protected_apps" />&ndash;&gt;-->
 
 
-            </LinearLayout>
+<!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_usage_faq_q5_2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Advantages"-->
+<!--                    android:textColor="@color/textSup"-->
+<!--                    android:textSize="@dimen/ts_Body2"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_usage_faq_q5_3"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Your App will not close after Screen-Off"-->
+<!--                    android:textColor="@color/textSub"-->
+<!--                    android:textSize="@dimen/ts_Body2" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_usage_faq_q5_4"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Open Settings > Advanced Settings > Battery > Protected Apps and Enable Ngebut VPN"-->
+<!--                    android:textColor="@color/textSub"-->
+<!--                    android:textSize="@dimen/ts_Body2"-->
+<!--                    android:textStyle="italic" />-->
+
+
+<!--            </LinearLayout>-->
 
         </LinearLayout>
     </ScrollView>

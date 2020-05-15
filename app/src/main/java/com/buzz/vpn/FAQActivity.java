@@ -40,10 +40,10 @@ public class FAQActivity extends Activity {
         TextView tv_usage_faq_q4_1 = findViewById(R.id.tv_usage_faq_q4_1);
         TextView tv_usage_faq_q4_2 = findViewById(R.id.tv_usage_faq_q4_2);
 
-        TextView tv_usage_faq_q5_1 = findViewById(R.id.tv_usage_faq_q5_1);
-        TextView tv_usage_faq_q5_2 = findViewById(R.id.tv_usage_faq_q5_2);
-        TextView tv_usage_faq_q5_3 = findViewById(R.id.tv_usage_faq_q5_3);
-        TextView tv_usage_faq_q5_4 = findViewById(R.id.tv_usage_faq_q5_4);
+//        TextView tv_usage_faq_q5_1 = findViewById(R.id.tv_usage_faq_q5_1);
+//        TextView tv_usage_faq_q5_2 = findViewById(R.id.tv_usage_faq_q5_2);
+//        TextView tv_usage_faq_q5_3 = findViewById(R.id.tv_usage_faq_q5_3);
+//        TextView tv_usage_faq_q5_4 = findViewById(R.id.tv_usage_faq_q5_4);
 
         Typeface RobotoRegular = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
         Typeface RobotoMedium = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
@@ -64,10 +64,10 @@ public class FAQActivity extends Activity {
         tv_usage_faq_q4_1.setTypeface(RobotoMedium);
         tv_usage_faq_q4_2.setTypeface(RobotoRegular);
 
-        tv_usage_faq_q5_1.setTypeface(RobotoMedium);
-        tv_usage_faq_q5_2.setTypeface(RobotoMedium);
-        tv_usage_faq_q5_3.setTypeface(RobotoRegular);
-        tv_usage_faq_q5_4.setTypeface(RobotoRegular);
+//        tv_usage_faq_q5_1.setTypeface(RobotoMedium);
+//        tv_usage_faq_q5_2.setTypeface(RobotoMedium);
+//        tv_usage_faq_q5_3.setTypeface(RobotoRegular);
+//        tv_usage_faq_q5_4.setTypeface(RobotoRegular);
 
         ImageView iv_faq_goback = findViewById(R.id.iv_faq_goback);
         LinearLayout ll_faq_go_back = findViewById(R.id.ll_faq_go_back);
@@ -97,10 +97,10 @@ public class FAQActivity extends Activity {
             tv_usage_faq_q3_2.setTextColor(getResources().getColor(R.color.colorDarkText));
             tv_usage_faq_q4_1.setTextColor(getResources().getColor(R.color.colorDarkText));
             tv_usage_faq_q4_2.setTextColor(getResources().getColor(R.color.colorDarkText));
-            tv_usage_faq_q5_1.setTextColor(getResources().getColor(R.color.colorDarkText));
-            tv_usage_faq_q5_2.setTextColor(getResources().getColor(R.color.colorDarkText));
-            tv_usage_faq_q5_3.setTextColor(getResources().getColor(R.color.colorDarkText));
-            tv_usage_faq_q5_4.setTextColor(getResources().getColor(R.color.colorDarkText));
+//            tv_usage_faq_q5_1.setTextColor(getResources().getColor(R.color.colorDarkText));
+//            tv_usage_faq_q5_2.setTextColor(getResources().getColor(R.color.colorDarkText));
+//            tv_usage_faq_q5_3.setTextColor(getResources().getColor(R.color.colorDarkText));
+//            tv_usage_faq_q5_4.setTextColor(getResources().getColor(R.color.colorDarkText));
             iv_faq_goback.setImageResource(R.drawable.ic_go_back_white);
         } else {
             constLayoutFAQMain.setBackgroundColor(getResources().getColor(R.color.colorLightBackground));
@@ -116,10 +116,10 @@ public class FAQActivity extends Activity {
             tv_usage_faq_q3_2.setTextColor(getResources().getColor(R.color.colorLightText));
             tv_usage_faq_q4_1.setTextColor(getResources().getColor(R.color.colorLightText));
             tv_usage_faq_q4_2.setTextColor(getResources().getColor(R.color.colorLightText));
-            tv_usage_faq_q5_1.setTextColor(getResources().getColor(R.color.colorLightText));
-            tv_usage_faq_q5_2.setTextColor(getResources().getColor(R.color.colorLightText));
-            tv_usage_faq_q5_3.setTextColor(getResources().getColor(R.color.colorLightText));
-            tv_usage_faq_q5_4.setTextColor(getResources().getColor(R.color.colorLightText));
+//            tv_usage_faq_q5_1.setTextColor(getResources().getColor(R.color.colorLightText));
+//            tv_usage_faq_q5_2.setTextColor(getResources().getColor(R.color.colorLightText));
+//            tv_usage_faq_q5_3.setTextColor(getResources().getColor(R.color.colorLightText));
+//            tv_usage_faq_q5_4.setTextColor(getResources().getColor(R.color.colorLightText));
             iv_faq_goback.setImageResource(R.drawable.ic_go_back);
         }
 
