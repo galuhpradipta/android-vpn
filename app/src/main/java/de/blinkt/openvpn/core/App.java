@@ -13,7 +13,7 @@ import android.os.Build;
 
 import android.util.Log;
 
-import com.buzz.vpn.R;
+import id.frontsentry.ngebutVPN.R;
 
 import java.util.Calendar;
 import java.util.Random;
@@ -28,7 +28,7 @@ public class App extends /*com.orm.SugarApp*/ Application {
     public static boolean ShowDailyUsage = true;
     public static String device_id;
     public static long device_created;
-    public static final String CHANNEL_ID = "COM.BUZZ.VPN";
+    public static final String CHANNEL_ID = "id.frontsentry.ngebutVPN";
     public static final int NOTIFICATION_ID = new Random().nextInt(601) + 200;
     NotificationManager manager;
 
@@ -62,7 +62,7 @@ public class App extends /*com.orm.SugarApp*/ Application {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 NotificationChannel serviceChannel = new NotificationChannel(
                         CHANNEL_ID,
-                        "COMBUZZVPN",
+                        "IDFRONSENTRYNGEBUTVPN",
                         NotificationManager.IMPORTANCE_LOW
                 );
 

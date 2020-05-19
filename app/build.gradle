@@ -9,7 +9,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     defaultConfig {
-        applicationId "com.buzz.vpn"
+        applicationId "id.frontsentry.ngebutVPN"
         minSdkVersion 21
         targetSdkVersion 28
         vectorDrawables.useSupportLibrary = true

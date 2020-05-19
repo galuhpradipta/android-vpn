@@ -39,10 +39,10 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.buzz.vpn.BuildConfig;
-import com.buzz.vpn.Data;
-import com.buzz.vpn.MainActivity;
-import com.buzz.vpn.R;
+import id.frontsentry.ngebutVPN.BuildConfig;
+import id.frontsentry.ngebutVPN.Data;
+import id.frontsentry.ngebutVPN.MainActivity;
+import id.frontsentry.ngebutVPN.R;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.io.IOException;
@@ -64,7 +64,7 @@ import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.VpnStatus.ByteCountListener;
 import de.blinkt.openvpn.core.VpnStatus.StateListener;
 
-import static com.buzz.vpn.Data.LongDataUsage;
+import static id.frontsentry.ngebutVPN.Data.LongDataUsage;
 import static de.blinkt.openvpn.core.ConnectionStatus.LEVEL_CONNECTED;
 import static de.blinkt.openvpn.core.ConnectionStatus.LEVEL_WAITING_FOR_USER_INPUT;
 import static de.blinkt.openvpn.core.NetworkSpace.ipAddress;

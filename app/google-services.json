@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "469576928087",
-    "firebase_url": "https://buzz-vpn.firebaseio.com",
-    "project_id": "buzz-vpn",
-    "storage_bucket": "buzz-vpn.appspot.com"
+    "firebase_url": "https://frontsentry.firebaseio.com",
+    "project_id": "fronsentry-ngebutVPN",
+    "storage_bucket": "frontsentry.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:469576928087:android:eaf568700d436864",
         "android_client_info": {
-          "package_name": "com.buzz.vpn"
+          "package_name": "id.frontsentry.ngebutVPN"
         }
       },
       "oauth_client": [

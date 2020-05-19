@@ -29,7 +29,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
-import com.buzz.vpn.R;
+import id.frontsentry.ngebutVPN.R;
 
 import java.io.IOException;
 

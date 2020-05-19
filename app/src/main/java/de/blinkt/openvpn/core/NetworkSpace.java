@@ -7,7 +7,7 @@ package de.blinkt.openvpn.core;
 import android.os.Build;
 import androidx.annotation.NonNull;
 
-import com.buzz.vpn.BuildConfig;
+import id.frontsentry.ngebutVPN.BuildConfig;
 
 //import junit.framework.Assert;
 

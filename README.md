@@ -18,7 +18,7 @@ The app can calculate the daily usage of data, connected time, check connection 
 ## Links
 
 Get the APK files from the following app-stores
-1. [https://play.google.com/store/apps/details?id=com.buzz.vpn](https://play.google.com/store/apps/details?id=com.buzz.vpn)
+1. [https://play.google.com/store/apps/details?id=id.frontsentry.ngebutVPN](https://play.google.com/store/apps/details?id=id.frontsentry.ngebutVPN)
 2. [https://buzz-vpn-fast-free-unlimited-secure-vpn-proxy.en.uptodown.com/android](https://buzz-vpn-fast-free-unlimited-secure-vpn-proxy.en.uptodown.com/android)
 3. [https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T](https://www.amazon.com/Buzz-VPN-Free-Pop-up-Ads/dp/B07T3X677T)
 

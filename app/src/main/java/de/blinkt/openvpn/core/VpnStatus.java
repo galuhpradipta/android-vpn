@@ -10,7 +10,7 @@ import android.os.HandlerThread;
 import android.os.Message;
 import android.util.Log;
 
-import com.buzz.vpn.R;
+import id.frontsentry.ngebutVPN.R;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -406,7 +406,7 @@ import android.os.HandlerThread;
 import android.os.Message;
 import android.util.Log;
 
-import com.buzz.vpn.R;
+import id.frontsentry.ngebutVPN.R;
 
 import java.io.File;
 import java.io.PrintWriter;

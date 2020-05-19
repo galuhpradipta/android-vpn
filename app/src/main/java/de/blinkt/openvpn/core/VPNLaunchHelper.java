@@ -9,7 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import com.buzz.vpn.R;
+import id.frontsentry.ngebutVPN.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

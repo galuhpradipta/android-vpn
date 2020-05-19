@@ -8,7 +8,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 
-import com.buzz.vpn.R;
+import id.frontsentry.ngebutVPN.R;
 
 import java.io.BufferedInputStream;
 import java.io.File;

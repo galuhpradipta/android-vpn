@@ -4,7 +4,7 @@
  */
 package de.blinkt.openvpn.core;
 
-import com.buzz.vpn.R;
+import id.frontsentry.ngebutVPN.R;
 
 import java.net.InetSocketAddress;
 import java.net.MalformedURLException;

@@ -6,7 +6,7 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_vpnsettings">Settings</string>-->
     <string name="get_time">%d%02d%02d%02d%02d%02d%03d</string>
-    <string name="Buzz">Buzz</string>
+    <string name="Buzz">Ngebut</string>
     <string name="VPN">VPN</string>
     <string name="ChicagoIL">Chicago IL</string>
     <string name="Title">Update Your VPN App</string>
