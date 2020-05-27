@@ -718,7 +718,7 @@ public class UsageActivity extends Activity {
                 try {
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
-                    sendIntent.putExtra(Intent.EXTRA_TEXT, "Wow! Change to dark mode, check VPN data usage, +10 countries, and it's only 5MB! Download the App NOW! From Google Play http://bit.ly/gotogoogleplay | Get the APK from UpToDown http://bit.ly/gotouptodown Aptoid http://bit.ly/gotoaptoide");
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, "Ngebut VPN! Free VPN! Kalian dapat mengakses website yang ter BLOCK dengan menggunakan Ngebut VPN. Nonton Film dengan nyaman menggunakan Ngebut VPN. Download the App NOW! From Google Play https://play.google.com/store/apps/details?id=id.frontsentry.ngebutVPN");
                     sendIntent.setType("text/plain");
                     startActivity(sendIntent);
                 } catch (Exception e) {
